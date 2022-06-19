@@ -20,5 +20,6 @@ sau khi chạy xong -cài composer kiểm tra composer:
 "docker build ./docker"
 ##
 "docker-compose up -d"
+## chạy  http://localhost:8000/
 ## Nếu thêm ảnh mà không thấy ảnh hiện thì chạy lệnh sau:
 php artisan storage:link
