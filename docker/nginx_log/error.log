@@ -1,0 +1,38 @@
+2022/06/19 09:15:59 [warn] 19#19: conflicting server name "_" on 0.0.0.0:80, ignored
+2022/06/19 09:15:59 [notice] 19#19: using the "epoll" event method
+2022/06/19 09:15:59 [notice] 19#19: nginx/1.21.6
+2022/06/19 09:15:59 [notice] 19#19: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2022/06/19 09:15:59 [notice] 19#19: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/19 09:15:59 [notice] 19#19: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/19 09:15:59 [notice] 19#19: start worker processes
+2022/06/19 09:15:59 [notice] 19#19: start worker process 20
+2022/06/19 09:15:59 [notice] 19#19: start worker process 21
+2022/06/19 09:15:59 [notice] 19#19: start worker process 22
+2022/06/19 09:15:59 [notice] 19#19: start worker process 23
+2022/06/19 09:27:09 [warn] 18#18: conflicting server name "_" on 0.0.0.0:80, ignored
+2022/06/19 09:27:09 [notice] 18#18: using the "epoll" event method
+2022/06/19 09:27:09 [notice] 18#18: nginx/1.21.6
+2022/06/19 09:27:09 [notice] 18#18: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2022/06/19 09:27:09 [notice] 18#18: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/19 09:27:09 [notice] 18#18: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/19 09:27:09 [notice] 18#18: start worker processes
+2022/06/19 09:27:09 [notice] 18#18: start worker process 19
+2022/06/19 09:27:09 [notice] 18#18: start worker process 20
+2022/06/19 09:27:09 [notice] 18#18: start worker process 21
+2022/06/19 09:27:09 [notice] 18#18: start worker process 22
+2022/06/19 09:48:08 [warn] 18#18: conflicting server name "_" on 0.0.0.0:80, ignored
+2022/06/19 09:48:08 [notice] 18#18: using the "epoll" event method
+2022/06/19 09:48:08 [notice] 18#18: nginx/1.21.6
+2022/06/19 09:48:08 [notice] 18#18: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2022/06/19 09:48:08 [notice] 18#18: OS: Linux 5.10.16.3-microsoft-standard-WSL2
+2022/06/19 09:48:08 [notice] 18#18: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/19 09:48:08 [notice] 18#18: start worker processes
+2022/06/19 09:48:08 [notice] 18#18: start worker process 19
+2022/06/19 09:48:08 [notice] 18#18: start worker process 20
+2022/06/19 09:48:08 [notice] 18#18: start worker process 21
+2022/06/19 09:48:08 [notice] 18#18: start worker process 22
+2022/06/19 09:52:45 [warn] 19#19: *25 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.20.0.1, server: _, request: "POST /admin/products/add HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/admin/products/add"
+2022/06/19 09:53:01 [error] 19#19: *28 open() "/var/www/html/public/storage/uploads/ao-nam-ngan-trang.jpg" failed (2: No such file or directory), client: 172.20.0.1, server: _, request: "GET /storage/uploads/ao-nam-ngan-trang.jpg HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/admin/products/show/1"
+2022/06/19 09:53:47 [error] 19#19: *34 open() "/var/www/html/public/storage/Uploads/ao-nam-ngan-trang.jpg" failed (2: No such file or directory), client: 172.20.0.1, server: _, request: "GET /storage/Uploads/ao-nam-ngan-trang.jpg HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/admin/products/edit/1"
+2022/06/19 09:56:43 [warn] 20#20: *46 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.20.0.1, server: _, request: "POST /admin/products/add HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/admin/products/add"
+2022/06/19 09:59:50 [warn] 20#20: *65 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.20.0.1, server: _, request: "POST /admin/products/add HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/admin/products/add"

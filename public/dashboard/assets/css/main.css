@@ -1,0 +1,71 @@
+.custom_message{
+    width: 100%;
+    height: 40px;
+    
+    text-align: center;
+    border-radius: 2.5px;
+}
+.text-message{
+    line-height: 40px;
+}
+.custom_message.message-success{
+    color: #155724;
+    background-color: #00bc8c;
+    border-color: #00a379;
+}
+.custom_message.message-error{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.form-message{
+    font-size: 13px;
+    color: red;
+}
+.custom-img{
+    width: 100px;
+}
+/* show products */
+.img_top{
+    width: 100%;
+}
+.img_big{
+    width: 80%;
+    height: auto;
+    max-height: 90%;
+    margin-bottom: 10px;
+}
+.img_sub{
+    height: 100px;
+    width:80%;
+    overflow: hidden;
+}
+.div_bottom{
+    width: 130px;
+    margin-right: 10px;
+    display: inline-flex;
+}
+.div_bottom-img{
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+}
+.div_right{
+    width: 100%;
+    height: 100%;
+}
+.div_right-top{
+    width: 100%;
+    height: 60%;
+}
+.div_right-bottom{
+    width: 100%;
+    height: 40%;
+}.background_show{
+    background-color: #fff;
+    box-shadow: 5px 10px #888888;
+    padding: 10px;
+}
+.div_right-bottom p {
+    margin-left: 20px;
+}
